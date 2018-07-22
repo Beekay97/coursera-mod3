@@ -1,0 +1,194 @@
+@font-face{
+	font-family:hurtm;
+	src:url(../fonts/hurtm.ttf)
+}
+body{
+	margin:0px;
+}
+header{
+	background-image:url("../images/redvector.jpg");
+	/*background-repeat:no-repeat;*/
+	background-size:cover;
+	}
+	.navbar{
+		display:flex;
+		justify-content:space-between;
+		margin:0px 20px 0px 40px;
+	}
+	.navbar .head{
+		margin:0px;
+	}
+	.navbar .container{
+		justify-content:normal;
+		padding-left:0px;
+		width:auto;
+	}
+	.navbar .menu{
+		margin:0px;
+		width:50%;
+		display:flex;
+	}
+	.navbar .container .navbar-brand h1{
+		font-family:hurtm;
+		font-size:2.2em;
+		margin:0px;
+		line-height:0.75em;
+		text-shadow: 1px 1px 1px #222;
+		padding:10px;
+	}
+	.navbar .container .navbar-brand h1 a,.navbar .container .navbar-brand h1 a:hover {
+		text-decoration:none;
+		color:white;
+	}
+	.navbar .container .navbar-menu{
+		width:100%;
+	}
+	.navbar .container .navbar-menu ul{
+		list-style:none;
+		display:flex;
+		justify-content:space-between;
+		align-items: center;
+		margin:0px;
+		padding:0px;
+		width:100%;
+	}
+	.navbar .container .navbar-menu ul li{
+		padding-right:10px;
+		color:white;
+	}
+	.showcase{
+		background:black;
+		display:flex;
+	}
+	.wolf-image{
+		background-image:url("../images/bgnd.jpg");
+		background-size:contain;
+		background-repeat: no-repeat;
+		min-height:100vh;
+		height:1300px;
+	}
+	.body{
+		margin-top:100px;
+		color:crimson;
+	}
+	.body h2{
+		width:200px;
+	}
+	footer{
+		min-height:150px;
+		background-image:url("../images/redvector.jpg");
+		background-size:cover;
+		display:flex;
+	}
+	.foot{
+		display:flex;
+		align-items: center;
+	}
+	.foot ul{
+		list-style:none;
+		display:flex;
+		justify-content:space-between;
+		align-items: center;
+		margin:0px;
+		padding:0px;
+		width:100%;
+	}
+	.foot ul li{
+		color:white;
+		font-size:1.5em;
+	}
+@media (min-width:1200px) /* for extra-large screens*/
+{
+	header{
+	background-image:url("../images/redvector.jpg");
+	/*background-repeat:no-repeat;*/
+	background-size:cover;
+	}
+	.navbar{
+		display:flex;
+		justify-content:space-between;
+		margin:0px 20px 0px 40px;
+	}
+	.navbar .head{
+		margin:0px;
+	}
+	.navbar .container{
+		justify-content:normal;
+		padding-left:0px;
+		width:auto;
+	}
+	.navbar .menu{
+		margin:0px;
+		width:50%;
+		display:flex;
+	}
+	.navbar .container .navbar-brand h1{
+		font-family:hurtm;
+		font-size:2.2em;
+		margin:0px;
+		line-height:0.75em;
+		text-shadow: 1px 1px 1px #222;
+		padding:10px;
+	}
+	.navbar .container .navbar-brand h1 a,.navbar .container .navbar-brand h1 a:hover {
+		text-decoration:none;
+		color:white;
+	}
+	.navbar .container .navbar-menu{
+		width:100%;
+	}
+	.navbar .container .navbar-menu ul{
+		list-style:none;
+		display:flex;
+		justify-content:space-between;
+		align-items: center;
+		margin:0px;
+		padding:0px;
+		width:100%;
+	}
+	.navbar .container .navbar-menu ul li{
+		padding-right:10px;
+		color:white;
+	}
+	.showcase{
+		background:black;
+		display:flex;
+	}
+	.wolf-image{
+		background-image:url("../images/bgnd.jpg");
+		background-size:contain;
+		background-repeat: no-repeat;
+		min-height:100vh;
+		height:1300px;
+	}
+	.body{
+		margin-top:100px;
+		color:crimson;
+	}
+	.body h2{
+		width:200px;
+	}
+	footer{
+		min-height:150px;
+		background-image:url("../images/redvector.jpg");
+		background-size:cover;
+		display:flex;
+	}
+	.foot{
+		display:flex;
+		align-items: center;
+	}
+	.foot ul{
+		list-style:none;
+		display:flex;
+		justify-content:space-between;
+		align-items: center;
+		margin:0px;
+		padding:0px;
+		width:100%;
+	}
+	.foot ul li{
+		color:white;
+		font-size:1.5em;
+	}
+}
